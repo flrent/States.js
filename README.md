@@ -1,4 +1,6 @@
 US-CA-states
 ============
 
-a simple JavaScript object containing US&amp;CA states with full names and code.
+a simple JSON file containing US&amp;CA states with full names and code.
+
+Usage: JSON.parse(<file contents>);
