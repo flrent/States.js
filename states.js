@@ -243,7 +243,7 @@ states.US = [
 	},
 	{
 		n:'Washington',
-		v:''
+		v:'WA'
 	},
 	{
 		n:'West Virginia',
