@@ -1,5 +1,8 @@
-var states = {};
-	states.CA = [{
+{
+ Countries: [{
+   n:"Canada",
+   v:"CA",
+   s: [{
 		n:"Alberta",
 		v:"AB"
 	},
@@ -50,9 +53,12 @@ var states = {};
 	{
 		n:'Yukon Territory',
 		v:'YT'
-	}];
-
-states.US = [
+	}
+   ]},
+{
+ n:"UnitedStates",
+   v:"US",
+   s: [{
 	{
 		n:'Alabama',
 		v:'AL'
@@ -257,4 +263,5 @@ states.US = [
 		n:'Wyoming',
 		v:'WY'
 	}
-];
+    ]}
+};
