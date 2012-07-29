@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Examples</title>
+		<script src="../dist/states_js.js"></script>
+	</head>
+	<body>	
+		<h1>States.js Example</h1>
+		<br>
+		<p><b>Example 1</b></p>
+		<p>The first example uses the .js format as a data source to populate dropdowns.</p>
+		<p>Result:</p>	
+		<div id="output"></div>
+		<script>
+		function addOption(selectbox,text,value )
+		{
+			/*
+			helper fcn from http://www.plus2net.com/javascript_tutorial/list-adding.php
+			*/
+			var optn = document.createElement("OPTION");
+			optn.text = text;
+			optn.value = value;
+			selectbox.options.add(optn);
+		}
+		function addSelect(country,places){
+			var select = document.createElement("SELECT");
+			//add options
+			var place;
+			for(var i=0;i<places.length;i++){
+				place = places[i];
+				addOption(select,place.n,place.v);
+			}
+			var div = document.createElement("DIV");
+			div.innerText = country + ": ";
+			div.appendChild(select);
+			document.getElementById("output").appendChild(div);
+		}
+		//create the selects
+		var countries = states.Countries;
+		var country;
+		for(var j=0;j<countries.length;j++){
+			country = countries[j];
+			addSelect(country.n,country.s);
+		}
+		</script>
+	</body>
+</html>
