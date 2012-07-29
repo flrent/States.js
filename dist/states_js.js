@@ -1,270 +1,270 @@
 var states = (function(){ return {
-	Countries: [
+	"Countries": [
 		{
-			n:"Canada",
-			v:"CA",
-			s: [
+			"n":"Canada",
+			"v":"CA",
+			"s": [
 				{
-					n:"Alberta",
-					v:"AB"
+					"n":"Alberta",
+					"v":"AB"
 				},
 				{
-					n:'British Columbia',
-					v:'BC'
+					"":"British Columbia",
+					"v":"BC"
 				},
 				{
-					n:'Manitoba', 
-					v:'MB'
+					"n":"Manitoba", 
+					"v":"MB"
 				},
 				{
-					n:'New Brunswick',
-					v:'NB'
+					"n":"New Brunswick",
+					"v":"NB"
 				},
 				{
-					n:'Newfoundland',
-					v:'NL'
+					"n":"Newfoundland",
+					"v":"NL"
 				},
 				{
-					n:'Northwest Territories',
-					v:'NT'
+					"n":"Northwest Territories",
+					"v":"NT"
 				},
 				{
-					n:'Nova Scotia',
-					v:'NS'
+					"n":"Nova Scotia",
+					"v":"NS"
 				},
 				{
-					n:'Nunavut',
-					v:'NU'
+					"n":"Nunavut",
+					"v":"NU"
 				},
 				{
-					n:'Ontario',
-					v:'ON'
+					"n":"Ontario",
+					"v":"ON"
 				},
 				{
-					n:'Prince Edward Island',
-					v:'PE'
+					"n":"Prince Edward Island",
+					"v":"PE"
 				},
 				{
-					n:'Quebec',
-					v:'QC'
+					"n":"Quebec",
+					"v":"QC"
 				},
 				{
-					n:'Saskatchewan',
-					v:'SK'
+					"n":"Saskatchewan",
+					"v":"SK"
 				},
 				{
-					n:'Yukon Territory',
-					v:'YT'
+					"n":"Yukon Territory",
+					"v":"YT"
 				}
 			]
 		},
 		{
-			n:"UnitedStates",
-			v:"US",
-			s: [
+			"n":"UnitedStates",
+			"v":"US",
+			"s": [
 				{
-					n:'Alabama',
-					v:'AL'
+					"n":"Alabama",
+					"v":"AL"
 				},
 				{
-					n:'Alaska',
-					v:'AK'
+					"n":"Alaska",
+					"v":"AK"
 				},
 				{
-					n:'Arizona',
-					v:'AZ'
+					"n":"Arizona",
+					"v":"AZ"
 				},
 				{
-					n:'Arkansas',
-					v:'AR'
+					"n":"Arkansas",
+					"v":"AR"
 				},
 				{
-					n:'California',
-					v:'CA'
+					"n":"California",
+					"v":"CA"
 				},
 				{
-					n:'Colorado',
-					v:'NC'
+					"n":"Colorado",
+					"v":"NC"
 				},
 				{
-					n:'Connecticut',
-					v:'CT'
+					"n":"Connecticut",
+					"v":"CT"
 				},
 				{
-					n:'Delaware',
-					v:'DE'
+					"n":"Delaware",
+					"v":"DE"
 				},
 				{
-					n:'District of Columbia',
-					v:'DC'
+					"n":"District of Columbia",
+					"v":"DC"
 				},
 				{
-					n:'Florida',
-					v:'FL'
+					"n":"Florida",
+					"v":"FL"
 				},
 				{
-					n:'Georgia',
-					v:'GA'
+					"n":"Georgia",
+					"v":"GA"
 				},
 				{
-					n:'Hawaii',
-					v:'HI'
+					"n":"Hawaii",
+					"v":"HI"
 				},
 				{
-					n:'Idaho',
-					v:'ID'
+					"n":"Idaho",
+					"v":"ID"
 				},
 				{
-					n:'Illinois',
-					v:'IL'
+					"n":"Illinois",
+					"v":"IL"
 				},
 				{
-					n:'Indiana',
-					v:'IN'
+					"n":"Indiana",
+					"v":"IN"
 				},
 				{
-					n:'Iowa',
-					v:'IA'
+					"n":"Iowa",
+					"v":"IA"
 				},
 				{
-					n:'Kansas',
-					v:'KS'
+					"n":"Kansas",
+					"v":"KS"
 				},
 				{
-					n:'Kentucky',
-					v:'KY'
+					"n":"Kentucky",
+					"v":"KY"
 				},
 				{
-					n:'Louisiana',
-					v:'LA'
+					"n":"Louisiana",
+					"v":"LA"
 				},
 				{
-					n:'Maine',
-					v:'ME'
+					"n":"Maine",
+					"v":"ME"
 				},
 				{
-					n:'Maryland',
-					v:'MD'
+					"n":"Maryland",
+					"v":"MD"
 				},
 				{
-					n:'Massachusetts',
-					v:'MA'
+					"n":"Massachusetts",
+					"v":"MA"
 				},
 				{
-					n:'Michigan',
-					v:'MI'
+					"n":"Michigan",
+					"v":"MI"
 				},
 				{
-					n:'Minnesota',
-					v:'MN'
+					"n":"Minnesota",
+					"v":"Mn"
 				},
 				{
-					n:'Mississippi',
-					v:'MS'
+					"n":"Mississippi",
+					"v":"MS"
 				},
 				{
-					n:'Missouri',
-					v:'MO'
+					"n":"Missouri",
+					"v":"MO"
 				},
 				{
-					n:'Montana',
-					v:'MT'
+					"n":"Montana",
+					"v":"MT"
 				},
 				{
-					n:'Nebraska',
-					v:'NE'
+					"n":"Nebraska",
+					"v":"NE"
 				},
 				{
-					n:'Nevada',
-					v:'NV'
+					"n":"Nevada",
+					"v":"NV"
 				},
 				{
-					n:'New Hampshire',
-					v:'NH'
+					"n":"New Hampshire",
+					"v":"NH"
 				},
 				{
-					n:'New Jersey',
-					v:'NJ'
+					"n":"New Jersey",
+					"v":"NJ"
 				},
 				{
-					n:'New Mexico',
-					v:'NM'
+					"n":"New Mexico",
+					"v":"NM"
 				},
 				{
-					n:'New York',
-					v:'NY'
+					"n":"New York",
+					"v":"NY"
 				},
 				{
-					n:'North Carolina',
-					v:'NC'
+					"n":"North Carolina",
+					"v":"NC"
 				},
 				{
-					n:'North Dakota',
-					v:'ND'
+					"n":"North Dakota",
+					"v":"ND"
 				},
 				{
-					n:'Ohio',
-					v:'OH'
+					"n":"Ohio",
+					"v":"OH"
 				},
 				{
-					n:'Oklahoma',
-					v:'OK'
+					"n":"Oklahoma",
+					"v":"OK"
 				},
 				{
-					n:'Oregon',
-					v:'OR'
+					"n":"Oregon",
+					"v":"OR"
 				},
 				{
-					n:'Pennsylvania',
-					v:'PA'
+					"n":"Pennsylvania",
+					"v":"PA"
 				},
 				{
-					n:'Rhode Island',
-					v:'RI'
+					"n":"Rhode Island",
+					"v":"RI"
 				},
 				{
-					n:'South Carolina',
-					v:'SC'
+					"n":"South Carolina",
+					"v":"SC"
 				},
 				{
-					n:'South Dakota',
-					v:'SD'
+					"n":"South Dakota",
+					"v":"SD"
 				},
 				{
-					n:'Tennessee',
-					v:'TN'
+					"n":"Tennessee",
+					"v":"TN"
 				},
 				{
-					n:'Texas',
-					v:'TX'
+					"n":"Texas",
+					"v":"TX"
 				},
 				{
-					n:'Utah',
-					v:'UT'
+					"n":"Utah",
+					"v":"UT"
 				},
 				{
-					n:'Vermont',
-					v:'VT'
+					"n":"Vermont",
+					"v":"VT"
 				},
 				{
-					n:'Virginia',
-					v:'VA'
+					"n":"Virginia",
+					"v":"VA"
 				},
 				{
-					n:'Washington',
-					v:'WA'
+					"n":"Washington",
+					"v":"WA"
 				},
 				{
-					n:'West Virginia',
-					v:'WV'
+					"n":"West Virginia",
+					"v":"WV"
 				},
 				{
-					n:'Wisconsin',
-					v:'WI'
+					"n":"Wisconsin",
+					"v":"WI"
 				},
 				{
-					n:'Wyoming',
-					v:'WY'
+					"n":"Wyoming",
+					"v":"WY"
 				}
 			]
 		}
