@@ -9,7 +9,12 @@
 		<p><b>Example 1</b></p>
 		<p>The first example uses the .js format as a data source to populate dropdowns.</p>
 		<p>Result:</p>	
-		<div id="output"></div>
+		<div id="example1"></div>
+		<br>
+		<p><b>Example 2</b></p>
+		<p>The second example uses the .json format as a data source to populate dropdowns.</p>
+		<p>Result:</p>	
+		<div id="example2"></div>
 		<script>
 		function addOption(selectbox,text,value )
 		{
@@ -32,15 +37,39 @@
 			var div = document.createElement("DIV");
 			div.innerText = country + ": ";
 			div.appendChild(select);
-			document.getElementById("output").appendChild(div);
+			return div;
 		}
-		//create the selects
-		var countries = states.Countries;
-		var country;
-		for(var j=0;j<countries.length;j++){
-			country = countries[j];
-			addSelect(country.n,country.s);
+		function createSelects(obj,id){
+			//create the selects
+			var countries = obj.Countries;
+			var country;
+			for(var j=0;j<countries.length;j++){
+				country = countries[j];
+				var sel = addSelect(country.n,country.s);
+				document.getElementById(id).appendChild(sel);
+			}
 		}
+		function example1(id){
+			createSelects(states,id);
+		}
+		function example2(id){
+			/* 
+			load from ajax request from http://www.codingforums.com/showthread.php?t=260491
+			*/
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.open('GET', '../dist/states.json', true);
+			xmlhttp.onreadystatechange = function() {
+			    if(xmlhttp.readyState==4) {
+			        if(xmlhttp.status==200) {
+			            var myobject = JSON.parse(xmlhttp.responseText);
+			            createSelects(myobject,id);     
+			        }
+			    }
+			};
+			xmlhttp.send(null);
+		}
+		example1("example1");
+		example2("example2");
 		</script>
 	</body>
 </html>

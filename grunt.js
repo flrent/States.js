@@ -27,6 +27,11 @@ module.exports = function(grunt) {
         "src/states.json"
       ]
     },
+    jsontojson: {
+      "dist/states.json": [
+        "src/states.json"
+      ]
+    },
     watch: {
       scripts: {
         files: '<config:lint.all>',
@@ -53,12 +58,15 @@ module.exports = function(grunt) {
         es5: true
       },
       globals: {}
+    },
+    server:{
+      index: "examples/demo.html"
     }
   });
 
   grunt.loadTasks('tasks');
   // Default task.
-  grunt.registerTask('default', 'lint jsontojs');
+  grunt.registerTask('default', 'lint jsontojs jsontojson');
 
   // Process markdown documentation to make the world a better place.
   grunt.registerMultiTask('docs', 'Tweak markdown documentation.', function() {
@@ -91,5 +99,5 @@ module.exports = function(grunt) {
       grunt.log.writeln('No documents updated.');
     }
   });
-
+  
 };
