@@ -267,6 +267,44 @@
 					"v":"WY"
 				}
 			]
+		},
+		{
+			"n":"Australia",
+			"v":"AU",
+			"s": [
+				{
+					"n":"Australian Capital Territory",
+				 	"v":"ACT"
+				},
+			  {
+			  	"n":"New South Wales",
+			   	"v":"NSW"
+			  },
+			  {
+			  	"n":"Northern Territory",
+			   	"v":"NT" 
+			  },
+			  {
+			  	"n":"Queensland",
+			   	"v":"QLD"
+			  },
+			  {
+			  	"n":"SA",
+			   	"v":"South Australia"
+			  },
+			  {
+			  	"n":"Tasmania",
+			   	"v":"TAS"
+			  },
+			  { 
+			  	"n":"Victoria",
+			   	"v":"VIC"
+			  },
+			  { 
+			  	"n":"Western Australia",
+			   	"v":"WA"
+				}
+			]
 		}
 	]
 }
