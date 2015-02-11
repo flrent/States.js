@@ -1,7 +1,7 @@
 States.js
 ============
   
-A simple JSON file containing US&amp;CA states with full names and codes.
+A simple JSON file containing US&amp;CA&amp; and indian states with full names and codes.
   
 It can be consumed as a JSON file, a JavaScript file (assigned to a global variable), or as a JSON file via an AMD script.
   
