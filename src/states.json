@@ -305,6 +305,154 @@
 			   	"v":"WA"
 				}
 			]
+		},
+		{
+			"n": "India",
+			"v": "IN",
+			"s": [{
+				"n": "Andhra Pradesh",
+				"v": "AP"
+			},
+			{
+				"n": "Arunachal Pradesh",
+				"v": "AR"
+			},
+			{
+				"n": "Assam",
+				"v": "AS"
+			},
+			{
+				"n": "Bihar",
+				"v": "BR"
+			},
+			{
+				"n": "Chhattisgarh",
+				"v": "CT"
+			},
+			{
+				"n": "Goa",
+				"v": "GA"
+			},
+			{
+				"n": "Gujarat",
+				"v": "GJ"
+			},
+			{
+				"n": "Haryana",
+				"v": "HR"
+			},
+			{
+				"n": "Himachal Pradesh",
+				"v": "HP"
+			},
+			{
+				"n": "Jammu and Kashmir",
+				"v": "JK"
+			},
+			{
+				"n": "Jharkhand",
+				"v": "JH"
+			},
+			{
+				"n": "Karnataka",
+				"v": "KA"
+			},
+			{
+				"n": "Kerala",
+				"v": "KL"
+			},
+			{
+				"n": "Madhya Pradesh",
+				"v": "MP"
+			},
+			{
+				"n": "Maharashtra",
+				"v": "MH"
+			},
+			{
+				"n": "Manipur",
+				"v": "MN"
+			},
+			{
+				"n": "Meghalaya",
+				"v": "ML"
+			},
+			{
+				"n": "Mizoram",
+				"v": "MZ"
+			},
+			{
+				"n": "Nagaland",
+				"v": "NL"
+			},
+			{
+				"n": "Odisha",
+				"v": "OR"
+			},
+			{
+				"n": "Punjab",
+				"v": "PB"
+			},
+			{
+				"n": "Rajasthan",
+				"v": "RJ"
+			},
+			{
+				"n": "Sikkim",
+				"v": "SK"
+			},
+			{
+				"n": "Tamil Nadu",
+				"v": "TN"
+			},
+			{
+				"n": "Telangana",
+				"v": "TG"
+			},
+			{
+				"n": "Tripura",
+				"v": "TR"
+			},
+			{
+				"n": "Uttarakhand",
+				"v": "UT"
+			},
+			{
+				"n": "Uttar Pradesh",
+				"v": "UP"
+			},
+			{
+				"n": "West Bengal",
+				"v": "WB"
+			},
+			{
+				"n": "Andamanand Nicobar Islands",
+				"v": "AN"
+			},
+			{
+				"n": "Chandigarh",
+				"v": "CH"
+			},
+			{
+				"n": "Dadraand Nagar Haveli",
+				"v": "DN"
+			},
+			{
+				"n": "Daman and Diu",
+				"v": "DD"
+			},
+			{
+				"n": "Delhi",
+				"v": "DL"
+			},
+			{
+				"n": "Laksha dweep",
+				"v": "LD"
+			},
+			{
+				"n": "Puducherry",
+				"v": "PY
+			}]
 		}
 	]
 }
